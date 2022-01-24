@@ -1,0 +1,5 @@
+Dodano rekord
+Pobrano dane: {'name': 'John Smith', 'age': 28, 'job': 'actor'}
+Zmodyfikowane dane: {'name': 'John Smith', 'age': 29, 'job': 'actor'}
+Usunieto rekord
+Wynik proby pobrania danych po usunieciu: None
