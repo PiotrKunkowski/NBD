@@ -1,0 +1,9 @@
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s24070/keys/JMT14UdeoQUgKnqqm8IXbKHuME6
+Date: Mon, 24 Jan 2022 00:16:18 GMT
+Content-Type: application/json
+Content-Length: 0
+
+//wygenerował się automatyczny klucz, w odpowiedzi jest jego lokalizacja

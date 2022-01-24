@@ -1,0 +1,19 @@
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Mon, 24 Jan 2022 00:12:38 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmds+39t6ECCUy57EyfMtKus2XBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24070>; rel="up"
+Last-Modified: Mon, 24 Jan 2022 00:12:38 GMT
+ETag: "2zAMMccIVZUgsZYvzd0lQT"
+Date: Mon, 24 Jan 2022 00:12:38 GMT
+Content-Type: application/json
+Content-Length: 63
+
+{"name": "Sam", "age": 53, "job": "gardener", "married": False} 

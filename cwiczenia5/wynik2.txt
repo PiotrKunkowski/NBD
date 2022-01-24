@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmds+36clDhBIZ81gZZsYl3ebLAgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24070>; rel="up"
+Last-Modified: Sun, 23 Jan 2022 23:19:53 GMT
+ETag: "7NEm8hNCwulUDaOwnZSHgi"
+Date: Sun, 23 Jan 2022 23:43:46 GMT
+Content-Type: application/json
+Content-Length: 92
+
+{"name": "Frodo", "age": 55, "job": "accountant", "married": False, "country": "New Zeland"}  

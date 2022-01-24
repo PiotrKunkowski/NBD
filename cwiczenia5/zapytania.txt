@@ -1,0 +1,52 @@
+1.
+curl -XPOST -i -H "Content-Type: application/json" -d '{"name": "Frodo", "age": 55, "job": "accountant", "married": False, "country": "New Zeland"}' http://localhost:8098/buckets/s24070/keys/person1
+curl -XPOST -i -H "Content-Type: application/json" -d '{"name": "Bilbo", "age": 135, "job": "lawyer", "married": False, "country": "Belgium"}' http://localhost:8098/buckets/s24070/keys/person2
+curl -XPOST -i -H "Content-Type: application/json" -d '{"name": "Sam", "age": 53, "job": "gardener", "married": True, "country": "Poland"}' http://localhost:8098/buckets/s24070/keys/person3
+curl -XPOST -i -H "Content-Type: application/json" -d '{"name": "Pippin", "age": 42, "job": "none", "married": True, "country": "New Zeland"}' http://localhost:8098/buckets/s24070/keys/person4
+curl -XPOST -i -H "Content-Type: application/json" -d '{"name": "Merry", "age": 48, "job": "lawyer", "married": False, "country": "England"}' http://localhost:8098/buckets/s24070/keys/person5
+
+
+
+2. 
+curl -i http://localhost:8098/buckets/s24070/keys/person1
+
+
+
+3.
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name": "Jan", "age": 22, "is-old": false, "houses-count": 1, "nowe-pole": "dodane pole"}' http://localhost:8098/buckets/s24070/keys/person1
+
+
+
+4.
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name": "Jan", "age": 22, "is-old": false, "houses-count": 1}' http://localhost:8098/buckets/s24070/keys/person1
+
+
+
+5.
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name": "Jan", "age": 22, "is-old": false, "houses-count": 50}' http://localhost:8098/buckets/s24070/keys/person1
+
+
+
+6.
+curl -XDELETE -i http://localhost:8098/buckets/s24070/keys/person3
+
+
+
+7.
+curl -i http://localhost:8098/buckets/s24070/keys/nieistniejacy-klucz
+
+
+
+8.
+curl -XPOST -i -H "Content-Type: application/json" -d '{"cos": 1}' http://localhost:8098/buckets/s24070/keys/
+
+
+
+9.
+curl -i http://localhost:8098/buckets/s24070/keys?keys=true
+curl -i http://localhost:8098/buckets/s24070/keys/Mkm5Gv5O6axzuByZeyQrdjykHt9
+
+
+
+10.
+curl -XDELETE -i http://localhost:8098/buckets/s24070/keys/Mkm5Gv5O6axzuByZeyQrdjykHt9
